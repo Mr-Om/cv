@@ -27,9 +27,8 @@ body{
     line-height: 2;
 }*/
 
-h1
-{
-    font-size: 5.625rem;
+
+.h1,h1{
     margin: 50px auto 0 auto;
     font-family:'Sacramento', cursive;
     color: #66BFBF;
@@ -42,6 +41,8 @@ h2
     font-family: 'Nanum Myeongjo', serif;
     font-weight: normal;
     padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
 }
 
 h3
@@ -60,14 +61,14 @@ h3
 
 .middle-container
 {
-    margin: 100px auto auto auto;
+    margin: 50px auto auto auto;
 }
 
 .bottom-container
 {
     background-color: #66BFBF;
     color: #11999E;
-    padding: 50px 0 20px;
+    padding: 50px auto 20px;
 }
 
 .bottom-cloud
@@ -172,7 +173,8 @@ h3
     border-width: 5px;
     border-style: dotted none none;
     border-color: gray;
-    margin: 100px auto;
+    margin: 30px auto;
+    background-color: white;
 }
 
 .intro
@@ -190,10 +192,21 @@ h3
     position: relative;
 }
 
-.left{
+/* .bot{
     margin-bottom:20px;
+} */
+
+
+.im{
+    margin-top: 30px;
 }
 
-.footer-link{
-    
+
+.set{
+    display: inline-block;
 }
+
+.sright{
+    padding-right: 30px;
+}
+
